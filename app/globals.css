@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+font-face {
+  font-family: alhurra;
+  src: url(../public/Alhurra.ttf);
+}
+
+body {
+  font-family: "Almarai", sans-serif;
+  background: linear-gradient(180deg, #6147aa 0%, #dec9e8 100%);
+  color: white;
+}
+
+.header-font {
+  font-family: alhurra;
+}
+
+.text-color {
+  color: #7151b4;
+}
+
+.header-text-color {
+  color: #9b7bf9;
+  font-family: alhurra;
+}
+
+.gradient-card {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(142.82deg, #a06dd6 8.12%, #dec9e8 92.56%);
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+  border-radius: 10px;
+}
+
+.component-bg {
+  background: #9263cb;
+}
+
+.gray-text {
+  color: #929292;
+}
+
+.primary-bg {
+  background: rgba(97, 71, 170, 0.2);
+}
+
+.header {
+  background-image: url(../public/headerBG.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.button-style {
+  background-color: #b185dc;
+  color: white;
+  border-radius: px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.component-bg {
+  background: rgba(177, 133, 220, 0.2);
+  border-radius: 10px;
+  transition: all ease-in-out 250ms;
+}
+
+.logo-watermark {
+  background-image: url(../public/vadaBrandingBackGround.png);
+  background-size: cover;
+}
+
+.component-bg:hover {
+  background: rgba(210, 178, 241, 0.2);
+  cursor: default;
+}
+
+.valueCard {
+  transition: all ease-in-out 0.3s;
+}
+
+.valueCard:hover .hidden-card {
+  top: 0px;
+}
+
+.valueCard:hover .card-header {
+  top: -30px;
+}
+
+/* background: rgba(255, 255, 255, 0.2); */
